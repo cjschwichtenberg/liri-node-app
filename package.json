@@ -2,7 +2,7 @@
   "name": "liri-node-app",
   "version": "1.0.0",
   "description": "UofR Coding Bootcamp Assignmnet- LIRI is a command line node app that takes in parameters and gives you back data.",
-  "main": "index.js",
+  "main": "liri.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +21,6 @@
     "dotenv": "^6.0.0",
     "inquirer": "^6.0.0",
     "node-spotify-api": "^1.0.7",
-    "prompt-list": "^3.2.0",
     "request": "^2.87.0",
     "twitter": "^1.7.1"
   }

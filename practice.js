@@ -18,7 +18,7 @@ function writeToLog(data) {
 function movieSearch(movieName) {
 
     if (!movieName) {
-        movieName = "Mr Nobody";
+        movieName = "Almost Famnous";
     }
 
     var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
@@ -152,8 +152,14 @@ function choice(caseData, functionData) {
     }
 }
 
+var choice = process.argv[2];
+
+
+
 function appStart(argOne, argTwo) {
-    choice(argOne, argTwo);
+    var choice = process.argv[2];
+    var choiceInput = process.argv[3];
+    
 };
 
-appStart(process.argv[2], process.argv.slice(3).join(" "));
+appStart(process.argv[2], process.argv[3].slice(3).join(" "));
